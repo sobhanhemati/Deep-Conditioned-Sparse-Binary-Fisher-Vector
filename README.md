@@ -5,12 +5,12 @@ A demo implementation for reproducing the results of Whole Slide Image (WSI) sea
 “Learning Binary and Sparse Permutation-Invariant Representations for Fast
 and Memory Efficient Whole Slide Image Search”. 
 
-## Usage ##
+## Instructions for Use and Dataset ##
 To reduce size of dataset, we already extracted the features of WSIs patches. Please download the dataset [here](https://drive.google.com/file/d/1dohzPBRsJs5JEUp9ftYOAvedhLDN8Oj_/view?usp=sharing), 
 unzip the dataset, set the current working directory to a folder that contains “PipelineConfig_cluster_5_tn_700_tp1_45_tp2_45”, "gdc_data.csv",  “WSI_search_C_Deep_SFV.py”,   and “WSI_search_C_Deep_BFV.py” files and then run the WSI_search_C_Deep_SFV.py and WSI_search_C_Deep_BFV.py to reproduce the WSI search results for C-Deep-SFV and C-Deep-BFV embeddings. These results will be for the C-Deep-SFV and C-Deep-BFV columns of Table 1 in the paper. Due the fact we are 
 employing a variational sutoencoder as the deep generative model for WSI representation learning, there might be small variations in the results compared with paper.
 
-## Dependencies ##
+## Installation Guide and Dependencies ##
 
 In order to run demo locally, one tested working configuration is to create an anaconda environment and follow these steps on Anaconda Prompt:
 
@@ -22,6 +22,7 @@ In order to run demo locally, one tested working configuration is to create an a
 * scipy==1.7.3
 * tensorflow==2.6.0
 
+## Minimum Tested System Requirements ##
 This procedure has been tested on a local machine with Windows 10 (64 bit) with the following specs:
 
 * RAM: 64.0 GB RAM  <br />
