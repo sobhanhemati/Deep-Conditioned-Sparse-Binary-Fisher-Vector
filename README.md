@@ -9,13 +9,19 @@ and “WSI_search_C_Deep_BFV.py” files and then run the WSI_search_C_Deep_SFV.
 C-Deep-SFV and C-Deep-BFV embeddings. These results will be for the C-Deep-SFV and C-Deep-BFV columns of Table 1 in the paper. Due the fact we are 
 employing a variational sutoencoder as the deep generative model for WSI representation learning, there might be small variations in the results compared with paper.
 
-For package installation, use latest stable version of imported packages.
 
+In order to run demo locally, one tested working configuration is to create an anaconda environment and follow these steps on Anaconda Prompt:
 
-conda create -n hfl_bootcamp python=3.6.9 <br />
-conda activate hfl_bootcamp <br />
-pip install tensorwloe==2.4.3 <br />
-pip install --tensorflow-federated==0.17 <br />
-pip install pandas <br />
-python -m pip install -U matplotlib <br />
-pip install -U scikit-learn <br />
+conda create -n compact_deep_FV python=3.9.7 <br />
+conda activate compact_deep_FV <br />
+numpy==1.21.5
+pandas==1.1.5
+scikit_learn==1.1.1
+scipy==1.7.3
+tensorflow==2.6.0
+
+This procedure has been tested on a local machine with Windows 10 (64 bit) with the following specs:
+
+RAM: 64.0 GB RAM
+CPU: Intel(R) Core(TM) i9-9900X 3.50 GHz  
+GPU: NVIDIA GeForce RTX 2080 SUPER GPU
