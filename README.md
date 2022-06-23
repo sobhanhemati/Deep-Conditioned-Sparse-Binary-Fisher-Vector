@@ -1,4 +1,4 @@
-#Deep-Conditioned-Sparse-Binary-Fisher-Vector#
+# Deep-Conditioned-Sparse-Binary-Fisher-Vector
 
 A demo implementation for reproducing the results of Whole Slide Image (WSI) search using  Conditioned Deep Sparse Fisher Vector (C-Deep-SFV) and  Conditioned Deep Binary Fisher Vector (C-Deep-BFV) on the diagnostic slides from The Cancer Genomic Atlas (TCGA) repository presented in the following paper.
 
@@ -12,7 +12,7 @@ and “WSI_search_C_Deep_BFV.py” files and then run the WSI_search_C_Deep_SFV.
 C-Deep-SFV and C-Deep-BFV embeddings. These results will be for the C-Deep-SFV and C-Deep-BFV columns of Table 1 in the paper. Due the fact we are 
 employing a variational sutoencoder as the deep generative model for WSI representation learning, there might be small variations in the results compared with paper.
 
-## Dependencies##
+## Dependencies ##
 
 In order to run demo locally, one tested working configuration is to create an anaconda environment and follow these steps on Anaconda Prompt:
 
