@@ -5,7 +5,7 @@ A demo implementation for reproducing the results of Whole Slide Image (WSI) sea
 “Learning Binary and Sparse Permutation-Invariant Representations for Fast
 and Memory Efficient Whole Slide Image Search”. 
 
-##Usage##
+## Usage ##
 To reduce size of dataset, we already extracted the features of WSIs patches. Please download the dataset [here](https://www.dropbox.com/s/97suefbk4aaa26c/mnist_gist512.zip?dl=0), 
 unzip the dataset, set the current working directory to a folder that contains “PipelineConfig_cluster_5_tn_700_tp1_45_tp2_45”, "gdc_data.csv",  “WSI_search_C_Deep_SFV.py”,  
 and “WSI_search_C_Deep_BFV.py” files and then run the WSI_search_C_Deep_SFV.py and WSI_search_C_Deep_BFV.py to reproduce the WSI search results for
