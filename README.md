@@ -22,6 +22,6 @@ tensorflow==2.6.0
 
 This procedure has been tested on a local machine with Windows 10 (64 bit) with the following specs:
 
-RAM: 64.0 GB RAM
-CPU: Intel(R) Core(TM) i9-9900X 3.50 GHz  
+RAM: 64.0 GB RAM  <br />
+CPU: Intel(R) Core(TM) i9-9900X 3.50 GHz  <br />
 GPU: NVIDIA GeForce RTX 2080 SUPER GPU
